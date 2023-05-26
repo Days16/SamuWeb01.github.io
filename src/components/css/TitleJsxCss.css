@@ -1,8 +1,4 @@
 .container{
-    text-align: center;
-}
-
-h1{
     border: 5px solid white;
     background-color: aqua;
     border-radius: 10px;
