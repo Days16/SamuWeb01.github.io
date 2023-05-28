@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch , NavLink } from "react-router-dom";
 import "./css/NavBar.css";
 
-function Navbar() {
+function NavBar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -70,4 +70,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavBar;
