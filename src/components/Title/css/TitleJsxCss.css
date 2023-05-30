@@ -1,7 +1,7 @@
 .container1{
-    text-align: center;
     border: 5px solid white;
     background-color: aqua;
     border-radius: 10px;
     color: black;
+    text-align: center;
 }

@@ -11,6 +11,8 @@ import EndTitleJsx from "./components/EndTitle/EndTitleJsx"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <>
+    <TitleJsx/>
+    <br/>
     <NavBar/>
     <FormJsx/>
     <EndTitleJsx/>
